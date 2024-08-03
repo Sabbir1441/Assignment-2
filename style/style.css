@@ -214,3 +214,45 @@
     line-height: 18px;
     letter-spacing: 0.3px;
 }
+
+/* run styles */
+
+.run{
+    border-radius: 18px;
+
+background: rgb(34, 34, 34);
+}
+.run-full{
+    display: flex;
+    gap: 150px;
+    height: 370px;
+    justify-content: center;
+    align-items: center;
+
+}
+.run-details{
+    max-width: 430px;
+    margin-left: 2rem;
+}
+.run-head{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+.run-para{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+    }
+.run-btn{
+    padding: 0.7rem 3rem;
+}
+.run-img{
+    width: 350px;
+    height: 312px;
+    border-radius: 1rem;
+    margin-right: 1.5rem;
+}
