@@ -160,3 +160,57 @@
     font-weight: 400;
     letter-spacing: 1px;
     }
+
+    /* habits styles */
+
+.habit-details{
+    max-width: 570px;
+    margin: 1rem auto;
+}
+
+.habit-head{
+    color: rgb(255, 255, 255);
+    font-size: 44px;
+    font-weight: 900;
+    text-align: center;
+}
+.habit-para{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.habit-options{
+    display: flex;
+    gap: 3rem;
+    margin: 4rem 0;
+}
+.habit-all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    width: 100%;
+    border-radius: 50% 50%;
+    border: 3px solid rgb(28, 26, 26);
+}
+
+.habit-options h4{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    margin: .6rem 0;
+    
+}
+.habit-options p{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+}
