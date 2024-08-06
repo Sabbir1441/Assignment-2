@@ -258,6 +258,125 @@ background: rgb(34, 34, 34);
     margin-right: 1.5rem;
 }
 
+/* bmi section  */
+
+.bmi-details{
+    max-width: 620px;
+    margin: 4rem auto;
+}
+
+.bmi-details h3{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: left;
+}
+.bmi-details p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.bmi{
+    background: rgb(34, 34, 34);
+}
+
+.bmi-calculator{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 2rem 0;
+}
+
+table{
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+
+td, th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: start;
+    padding: 0.6rem 1.2rem 0.6rem 1rem;
+}
+
+th{
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.bmi-calculator h3{
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: left;
+}
+
+
+.bmi-input-details p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
+
+.bmi-input input , select{
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 0.8rem 0 0.8rem 1.2rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.bmi-input{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.bmi-input-1{
+    display: grid;
+    gap: 2%;
+    grid-template-columns: repeat(2 , 49%);
+}
+.bmi-input-2{
+    display: grid;
+    gap: 2%;
+    grid-template-columns: repeat(2 , 49%);
+}
+.bmi-input-3{
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+}
+
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+.bmi-btn{
+    padding: 0.7rem 3rem;
+    margin-top: 1.5rem;
+}
+
 /* team section */
 
 .team-head{
