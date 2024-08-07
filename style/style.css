@@ -14,6 +14,12 @@
     margin: 2rem auto;
     border-radius: 1rem;
 }
+
+.banner-body{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0),rgb(17, 17, 17) 100%);
+    padding-top: 2rem;
+}
+
 .nav{
     display: flex;
     flex-direction: row;
@@ -220,8 +226,7 @@
 
 .run{
     border-radius: 18px;
-
-background: rgb(34, 34, 34);
+    background: rgb(34, 34, 34);
 }
 .run-full{
     display: flex;
