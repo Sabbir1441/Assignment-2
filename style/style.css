@@ -263,6 +263,79 @@
     margin-right: 1.5rem;
 }
 
+
+/* run section styles */
+
+.diet{
+    background-color: rgb(26, 54, 54);
+    width: 76%;
+    padding: 2%;
+    padding-bottom: 3rem;
+    margin-top: 5rem;
+}
+
+.diet-head{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.diet-head h3{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: center;
+}
+
+.diet-head p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.diet-option{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 1.5rem;
+    margin-top: 1rem;
+
+}
+
+.diet-box{
+    background-color: rgb(64, 83, 76);
+    box-shadow: 8px 8px 4px rgb(142, 173, 146);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.diet-box ul{
+    color: rgba(255, 255, 255, 0.885);
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+    padding-left: 0;
+    margin-left: 0.2rem;
+}
+
+.diet-box h4{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 120%;
+    text-align: center;
+}
+
+li{
+    margin-top: 0.3rem;
+}
+
+
+
+
 /* bmi section  */
 
 .bmi-details{
