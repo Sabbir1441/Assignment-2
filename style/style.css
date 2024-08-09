@@ -145,6 +145,7 @@
     border-radius: 50% 50%;
 }
 
+
 .banner-card-1 h4{
     color: rgb(250, 250, 249);
     font-size: 1.5rem;
@@ -264,7 +265,7 @@
 }
 
 
-/* run section styles */
+/* diet section styles */
 
 .diet{
     background-color: rgb(26, 54, 54);
@@ -526,7 +527,6 @@ td{
     display: grid;
     grid-template-columns: 46% 24% 24%;
     gap: 2rem;
-    align-items: ;
     padding-top: 2rem;
 }
 
@@ -577,4 +577,125 @@ td{
     letter-spacing: 0.3px;
     text-align: center;
     padding-bottom: 2rem;
+}
+
+.ham-burger{
+    display: none;
+}
+
+.circle i{
+    display: none;
+}
+
+
+
+
+/* mobile responsive */
+
+
+
+@media screen and (max-width: 576px) {
+
+.container{
+    width: 90%;
+}   
+
+.ham-burger{
+    display: block;
+    color: aliceblue;
+    font-size: 26px;
+}
+
+.nav-list{
+    display: none;
+}
+
+.banner{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.banner-details h2{
+    font-size: 3rem;
+    max-width: 350px;
+}
+
+.banner-details p{
+    max-width: 270px;
+}
+
+.banner-img{
+    width: 100%;
+}
+
+.banner-card-1{
+    left: 0;
+    top: 43%;
+}
+.banner-card-2{
+    right: 5%;
+    top: 7%;
+
+}
+
+.circle i{
+    display: block;
+    position: absolute;
+    left: 16%;
+    top: 42%;
+}
+
+.habit-head{
+    font-size: 32px;
+}
+
+.habit-options{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.habit-all{
+    width: 50%;
+}
+
+.run-full{
+    flex-direction: column;
+    gap: 2rem;
+    height: auto;
+    padding: 2rem;
+    
+}
+
+.run-details{
+    margin-left: 0;
+}
+
+.run-btn{
+    padding: 0.7rem 3rem;
+    width: 100%;
+}
+.run-img{
+    margin: 0 auto;
+}
+
+
+.diet{
+    width: 86%;
+    padding: 2%;
+    padding-bottom: 2rem;
+}
+
+.diet-head{
+    max-width: 350px;
+
+}
+
+.diet-option{
+    display: grid;
+    grid-template-columns: repeat(2 ,46%);
+
+}
+
+
 }
