@@ -694,8 +694,8 @@ td{
     width: 100%;
 }
 .run-img{
-    width: 80%;
-    /* height: auto; */
+    width: 100%;
+    height: auto;
     margin: 0 10%;
 }
 
